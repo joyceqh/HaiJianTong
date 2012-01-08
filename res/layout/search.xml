@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg"
+        >  
+
+        <AbsoluteLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                    android:id="@+id/prompt"
+                    android:layout_width="410dp"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:layout_x="0dp"
+                    android:layout_y="8dp"
+                    android:text="您需要查询些什么？"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_x="340dp"
+                android:layout_y="6dp"
+                android:background="@drawable/mic"
+                android:gravity="right" />
+
+            </AbsoluteLayout>
+
+                <AbsoluteLayout
+                    android:id="@+id/linearLayout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_x="0dp"
+                    android:layout_y="56dp"
+                    android:orientation="vertical" >
+
+                    <AbsoluteLayout
+                        android:id="@+id/linearLayout10"
+                        android:layout_width="260dp"
+                        android:layout_height="wrap_content"
+                        android:layout_y="155dp"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+                    </AbsoluteLayout>
+
+                    <AbsoluteLayout
+                        android:id="@+id/linearLayout11"
+                        android:layout_width="260dp"
+                        android:layout_height="wrap_content"
+                        android:layout_x="1dp"
+                        android:layout_y="60dp"
+                        android:orientation="vertical"
+                        
+                        
+                       >    
+                      
+                        
+
+                        <TextView android:id="@+id/answer"
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:layout_x="0dp"
+                            android:layout_y="4dp"
+                            android:textColor="#ffffff" />
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="260dp"
+                            android:layout_height="260dp"
+                            android:layout_x="0dp"
+                            android:layout_y="142dp" />
+
+                    </AbsoluteLayout>
+
+                     <AbsoluteLayout
+                         android:id="@+id/linearLayout11"
+                         android:layout_width="wrap_content"
+                         android:layout_height="42dp"
+                         android:layout_x="303dp"
+                         android:layout_y="15dp"
+                         android:orientation="vertical" >
+                     </AbsoluteLayout>
+
+                     <TextView
+                         android:id="@+id/show"
+                         android:layout_width="200dp"
+                         android:layout_height="40dp"
+                         android:layout_x="205dp"
+                         android:layout_y="15dp"
+                         android:gravity="right"
+                         android:textColor="#ffffff"
+                         android:textSize="20sp" />
+
+                </AbsoluteLayout>
+               
+          </AbsoluteLayout>      
+

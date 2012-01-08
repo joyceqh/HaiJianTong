@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AddLayer!</string>
+    <string name="app_name">海监通Demo</string>
+    <string name="button1">button1</string>
+    <string name="button2">button2</string>
+    <string name="app_id">4ef04082</string>
+   <string
+		name="preference_key_iat_engine">iat_engine</string>
+   <string name="preference_default_iat_engine">sms</string>
+   <string name="test">test</string>
+</resources>

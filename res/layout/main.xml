@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- MapView layout and initial extent -->
+    <com.esri.android.map.MapView
+  		 android:id="@+id/map"
+  		 android:layout_width="fill_parent"
+  		 android:layout_height="fill_parent"
+  		 initExtent = "117.84855183800885 27.432551876029365 126.18888138947315 32.07917131603"
+  		 >
+  	  <!-- <com.esri.android.map.ags.ArcGISTiledMapServiceLayer
+  	     android:id="@+id/tiles1"
+  		 url="http://server.arcgisonline.com/ArcGIS/rest/services/ESRI_Imagery_World_2D/MapServer"/> -->
+  	</com.esri.android.map.MapView>
+  	<TextView android:id="@+id/label" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:textColor="#ffffff" 
+      android:layout_alignParentBottom="true" />
+  	<Button android:id="@+id/button1"
+		android:layout_width="100px"
+		android:layout_height="wrap_content" android:text="@string/button1" />
+	<Button android:id="@+id/button2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/button2" />
+
+	<Button
+	    android:id="@+id/button3"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/mic" />
+ 
+</RelativeLayout>
